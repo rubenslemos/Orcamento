@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+input{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 30rem;
+
+}
+.cliente div{
+	margin-top: 2rem;
+	height: 2.5rem;
+	align-items: center;
+	justify-content: left;
+	text-align: center;
+	display: flex;
+	padding-left: 1rem;
+}
+.cliente p{
+	padding-left: 1rem;
+	font-size: 2rem;
+    display: flex;
+    justify-content: left;
+	align-items: center;
+	text-align: center;
+}

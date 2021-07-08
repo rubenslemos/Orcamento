@@ -1,0 +1,132 @@
+@charset "utf-8";
+:root {
+    --azul-rumos: #1D5880;
+    --cinza: rgb(39, 37, 37);
+    --azul-clicado: #0d90e7;
+    --cinza-clicado: rgb(43, 48, 59);
+}
+
+html {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: auto;
+}
+
+div {
+    background-color: black;
+    text-align: center;
+    color: #1D5880;
+    justify-content: center;
+}
+
+img {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+.menu {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.menu img {
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.texto {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 120rem;
+}
+
+.menu a {
+    display: flex;
+    color: #1D5880;
+}
+
+.menu div {
+    margin-top: 0rem;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    border: solid 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.btn {
+    border: solid 1px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    color: var(--azul-rumos);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: var(--cinza);
+}
+
+.btn:active {
+    color: var(--azul-clicado);
+    background-color: var(--cinza-clicado);
+}
+
+.btna {
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    color: var(--azul-rumos);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--azul-rumos);
+}
+
+.btna:hover {
+    background-color: var(--cinza);
+}
+
+.btna:active {
+    color: var(--azul-clicado);
+    background-color: var(--cinza-clicado);
+}

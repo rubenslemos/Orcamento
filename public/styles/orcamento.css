@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+input {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 59rem;
+    margin-left: 16rem;
+    height: 2.5rem;
+    margin-top: -1rem;
+    font-family: "Poppins";
+    font-size: 2rem;
+    color: #1D5880;
+    background-color: black;
+    border-color: #1D5880;
+    outline: none;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: auto;
+}
+
+.cliente p {
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    text-align: left;
+    width: 19rem;
+    margin-bottom: -2rem;
+    margin-left: -1rem;
+    font-size: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background-color: black;
+    color: #1D5880;
+    border: color#1D5880;
+    width: 18rem;
+    height: 3rem;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btntop {
+    border: solid 1px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: black;
+    outline: none;
+    color: var(--azul-rumos);
+}
+
+.btntop:hover {
+    background-color: var(--cinza);
+}
+
+.btntop:active {
+    color: var(--azul-clicado);
+    background-color: var(--cinza-clicado);
+}

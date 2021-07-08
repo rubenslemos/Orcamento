@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+input {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 47rem;
+    margin-left: 16rem;
+    height: 2.5rem;
+    margin-top: -1rem;
+    font-family: "Poppins";
+    font-size: 2rem;
+    color: #1D5880;
+    background-color: black;
+    border-color: #1D5880;
+    outline: none;
+}
+
+.cliente p {
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    text-align: left;
+    width: 18rem;
+    margin-bottom: -2rem;
+    margin-left: -2rem;
+    font-size: 2rem;
+}
+
+button {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background-color: black;
+    color: #1D5880;
+    border: color#1D5880;
+    width: 15rem;
+    height: 3rem;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
