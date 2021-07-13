@@ -1,3 +1,4 @@
 {
-    "terminal.integrated.defaultProfile.windows": "openSUSE-Leap-15.2 (WSL)"
+    "terminal.integrated.defaultProfile.windows": "openSUSE-Leap-15.2 (WSL)",
+    "diffEditor.wordWrap": "on"
 }
